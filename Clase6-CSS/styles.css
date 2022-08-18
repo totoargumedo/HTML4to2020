@@ -1,0 +1,19 @@
+h2 {
+    color: red;
+    text-align: right;
+}
+
+.seccion1 {
+    background-color: green;
+}
+
+#gustos {
+    background-color: goldenrod;
+}
+
+h1 {
+    color: gray;
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 120px;
+}
