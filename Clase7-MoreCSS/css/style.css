@@ -1,0 +1,26 @@
+.logo {
+    height: 10vh;
+}
+
+.logoText {
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+.landingMessage {
+    height: 80vh;
+    background-image: url("https://c.files.bbci.co.uk/17444/production/_124800359_gettyimages-817514614.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+header {
+    background: lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: darkslategray;
+    font-size: 3vh;
+    font-weight: bold;
+}

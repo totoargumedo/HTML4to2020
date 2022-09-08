@@ -1,0 +1,37 @@
+.prestenAtencion {
+    background-color: aquamarine;
+
+
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-family: newtarrow;
+
+
+    width: 60%;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: purple;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    background-color: orange;
+
+    padding: 25px;
+
+    width: 80%;
+    height: 500px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
