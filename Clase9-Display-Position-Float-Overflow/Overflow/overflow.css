@@ -1,0 +1,29 @@
+.introducción{
+	text-align: center;
+	line-height: 1.2rem;
+	width: 60%;
+	margin:0 auto;
+}
+.cuadro{
+	width: 200px;
+	background: black;
+	padding: 36px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 250px;
+	font-size: 20px;
+	color: #D8CE9F;
+}
+.texto1 {
+overflow: visible;
+}
+.texto2{
+overflow: hidden;
+}
+.texto3{
+overflow: scroll;
+}
+.texto4{
+overflow: auto;
+}
+

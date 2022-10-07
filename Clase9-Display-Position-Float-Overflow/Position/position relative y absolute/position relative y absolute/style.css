@@ -1,0 +1,16 @@
+.cuadrado{
+	width:200px;
+	height:200px;
+	background:#aaa;
+	position:relative;
+	left:600px;
+}
+.circulo{
+	width: 20px;
+	height: 20px;
+	background: red;
+	border-radius: 50px;
+	position:absolute;
+	left:50px;
+	top:50px;
+}

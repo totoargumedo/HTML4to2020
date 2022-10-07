@@ -1,0 +1,36 @@
+.tituloPrincipal {
+    color: red;
+    background-color: black;
+    font-size: 45px;
+    text-align: center;
+    font-family: monospace;
+}
+
+h2 {
+    color: rgb(234, 210, 45);
+}
+
+.colorVioleta {
+    color: violet;
+    background-color: black;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+body {
+    background-color: pink;
+}
+
+header,
+footer {
+    background-color: green;
+}
+
+.imagenPeque {
+    height: 150px;
+    width: 150px;
+}
+
+.imagenNormal {
+    height: 350px;
+}

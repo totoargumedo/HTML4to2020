@@ -1,0 +1,27 @@
+.div {
+	display: inline;
+	background-color:red;
+	border:2px solid cadetblue;
+}
+.positionfixed {
+	position:fixed;
+	padding:5px;
+	bottom:0px;
+	right:0px;
+	margin:10px;
+
+}
+
+.positionsticky {
+position: sticky;
+top:0;
+z-index: 10;
+}
+
+.p{
+	border: 1px solid blue;
+	margin: bottom;
+}
+.h1{
+	background-color: red;
+}

@@ -1,0 +1,43 @@
+.contenedorAzul {
+    width: 80%;
+    height: 50vh;
+    background-color: aquamarine;
+    border: pink 5px dotted;
+
+}
+
+.cuadradoNaranja {
+    width: 100px;
+    height: 150px;
+    background-color: orange;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+
+
+
+
+
+
+
+
+.navBar {
+    background-color: slategray;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-flow: row center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding: 0 15px;
+}
