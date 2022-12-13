@@ -1,0 +1,27 @@
+.florencia {
+
+    font-family: monospace;
+    font-size: 36px;
+    text-decoration: underline;
+    text-align: center;
+    background: yellow;
+    width: 30%;
+    display: block;
+}
+
+.pedro {
+    color: red;
+}
+
+.jose {
+    color: rgb(201, 6, 156);
+}
+
+main {
+    width: 50%;
+    background: seagreen;
+}
+
+body {
+    background: aqua;
+}
