@@ -1,12 +1,20 @@
 body {
     padding: 0;
     margin: 0;
+    background: violet;
 }
 
+/*ENCABEZADO*/
 header {
     background: yellow;
-    height: 100px;
+    height: 15vh;
     width: 100%;
+    position: sticky;
+    top: 0;
+    /*display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;*/
 }
 
 .logo {
@@ -14,30 +22,156 @@ header {
 }
 
 .linkNavegador:link {
+    /*link sin visitar*/
     color: black;
-    font-size: 36px;
+    font-size: 24px;
     font-family: monospace;
     text-decoration: none;
-    padding: 15px;
-    margin-left: 45px;
-
+    padding: 5px;
 }
 
 .linkNavegador:visited {
+    /* link visitado   */
     color: black;
-    font-size: 36px;
+    font-size: 24px;
     font-family: monospace;
     text-decoration: none;
+
 }
 
 .linkNavegador:hover {
-    border: white solid 5px;
+    /*    cuando pasan el mouse por encima*/
+    border-bottom: white solid 3px;
 }
 
+/*FIN ENCABEZADO*/
+
+
+/*PIE DE PAGINA*/
+footer {
+    background: lightgray;
+    height: 250px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    /*display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;*/
+}
+
+.linksFooter {
+    padding: 0 25px;
+    /*display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: space-between;*/
+}
+
+.linkFooter {
+    padding: 20px;
+    color: black;
+    font-size: 24px;
+    font-family: monospace;
+}
+
+.linkFooter a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.linkFooter a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.linkFooter a:hover {
+    color: black;
+    text-decoration: none;
+    border: white solid 1px;
+}
+
+.iframesFooter {
+    padding: 0 25px;
+}
+
+/*FIN PIE DE PAGINA*/
+
+/*MAIN INDEX*/
 .bienvenida {
-    width: 80vw;
+    width: 100%;
+    height: 85vh;
 }
 
 .bienvenida img {
     width: inherit;
+    height: inherit;
 }
+
+.bienvenida a {
+    z-index: 1;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+
+.bienvenida a button {
+    padding: 15px;
+    color: black;
+    font-size: 24px;
+    font-family: monospace;
+    background: yellow;
+}
+
+.informacion {
+    height: 85vh;
+    width: 100%;
+    /*  display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    font-size: 24px;
+    font-family: monospace;*/
+    text-align: center
+}
+
+.informacion img {
+    padding: 15px;
+    height: 85vh;
+    width: 50%;
+}
+
+.informacion div {
+    /* display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;*/
+}
+
+/*FIN MAIN INDEX*/
+/*MAIN ZAPATILLAS*/
+.galeriaProductos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.tarjeta {
+    background: lightgray;
+    width: 300px;
+    height: 400px;
+}
+
+.tarjeta img {
+    height: 40%;
+}
+
+.tarjeta h2 {
+    font-family: monospace;
+    font-size: 16px;
+    padding: 10px;
+    color: violet;
+}
+
+
+/*FIN MAIN ZAPATILLAS*/
